@@ -1,0 +1,179 @@
+/* Estilo Atualizado */
+body {
+  background-color: #f7f7f7;
+  /* Fundo claro */
+  font-family: 'Arial', sans-serif;
+  /* Fonte clara */
+}
+
+.skills {
+  color: #f81100;
+}
+
+.skills-list {
+  list-style-type: none;
+  /* Remove os marcadores da lista */
+  padding: 0;
+  /* Remove o padding padrão */
+  margin: 0;
+  /* Remove a margem padrão */
+  display: flex;
+  /* Utiliza flexbox para alinhar os itens */
+  flex-wrap: wrap;
+  /* Permite que os itens quebrem para a próxima linha se não houver espaço */
+  justify-content: center;
+  /* Centraliza os itens */
+}
+
+.skill-item {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 5px;
+  /* Adiciona margem entre os itens */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  flex: 1 1 150px;
+  /* Permite que os itens sejam flexíveis */
+}
+
+.curriculo-container {
+  max-width: 600px;
+  /* Largura do cartão */
+  margin: 100px auto;
+  /* Margem centralizada */
+  padding: 30px;
+  /* Espaçamento interno */
+  background-color: #ffffff;
+  /* Fundo branco */
+  border-radius: 15px;
+  /* Bordas arredondadas */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  /* Sombra suave */
+  text-align: center;
+  /* Centralização do texto */
+}
+
+h2 {
+  margin-bottom: 20px;
+  /* Margem abaixo do título */
+  font-size: 26px;
+  /* Tamanho da fonte */
+  color: #333;
+  /* Cor do texto */
+}
+
+h3 {
+  color: #666;
+  /* Cor mais suave para o subtítulo */
+  margin: 10px 0;
+  /* Margem vertical */
+}
+
+.input-group {
+  margin-bottom: 15px;
+  /* Margem inferior */
+}
+
+/* Estilos para os links e botões */
+.linkendin,
+.TellMe,
+.git,
+.email {
+  display: inline-block;
+  /* Exibição em bloco */
+  padding: 12px;
+  /* Espaçamento interno */
+  width: 100%;
+  /* Largura total */
+  border-radius: 10px;
+  /* Bordas arredondadas */
+  text-align: center;
+  /* Centralização do texto */
+  font-size: 16px;
+  /* Tamanho da fonte */
+  font-weight: bold;
+  /* Negrito */
+  color: white;
+  /* Cor do texto */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /* Transições suaves */
+}
+
+.linkendin {
+  background-color: #0077b5;
+  /* Azul do LinkedIn */
+}
+
+.linkendin:hover {
+  background-color: #005582;
+  /* Azul escuro do hover */
+  transform: translateY(-2px);
+  /* Leve elevação no hover */
+}
+
+.TellMe {
+  background-color: #25D366;
+  /* Verde do WhatsApp */
+}
+
+.TellMe:hover {
+  background-color: #1DAE5C;
+  /* Verde escuro do hover */
+  transform: translateY(-2px);
+  /* Leve elevação no hover */
+}
+
+.git {
+  background-color: #333;
+  /* Preto do GitHub */
+}
+
+.git:hover {
+  background-color: #444;
+  /* Cinza escuro do hover */
+  transform: translateY(-2px);
+  /* Leve elevação no hover */
+}
+
+.email {
+  background-color: #D14836;
+  /* Vermelho do Email */
+}
+
+.email:hover {
+  background-color: #A2352E;
+  /* Vermelho escuro do hover */
+  transform: translateY(-2px);
+  /* Leve elevação no hover */
+}
+
+/* Estilo para a lista de skills */
+ul {
+  list-style-type: none;
+  /* Sem marcadores */
+  padding: 0;
+  /* Sem preenchimento */
+}
+
+li {
+  background-color: #f1f1f1;
+  /* Fundo leve */
+  margin: 10px 0;
+  /* Margem vertical */
+  padding: 12px;
+  /* Espaçamento interno */
+  border-radius: 10px;
+  /* Bordas arredondadas */
+  color: #333;
+  /* Cor do texto */
+  font-weight: 500;
+  /* Peso da fonte */
+  transition: background-color 0.3s ease;
+  /* Transição de fundo */
+}
+
+li:hover {
+  background-color: #e2e2e2;
+  /* Fundo escuro ao passar o mouse */
+}
